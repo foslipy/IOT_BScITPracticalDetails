@@ -1,0 +1,11 @@
+Steps to Install and setup wifi acess point
+First Install the install.sh file 
+sudo chmod +x install.sh ap.sh //give the execute permission to both the files
+sudo ./install.sh  //it will install modules and setup details
+
+Second file ap.sh will use to setp wifiname and password
+run the command 
+ap wifiname wifipasswd
+ap demo demo123
+
+it will create the wifi access point and it work as hotsopt.
